@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Nike Replica</title>
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="naviagtion-conatiner">
+        <div class="menu menu-left">
+          <a href="#" class="logo">Nike<img src="images/nike_PNG7.png" alt="Nike_Logo" /></a>
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+  
+        <div class="menu-right">
+          <div class="shopping-cart" onclick="toggleNav()">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="shopping-cart_qty">
+
+            </div>
+          </div>
+          <div class="search-container">
+            <input
+              class="search-text"
+              type="search"
+              placeholder="Search Something Here"
+            />
+            <a href="#" class="btn"><i class="fas fa-search"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-wrapper"></div>
+    </div>
+
+
+    <!-- Swiper JS------------------------ -->
+
+    <div id="sidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+      <div class="sidenav__body"></div>
+    </div>
+
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
