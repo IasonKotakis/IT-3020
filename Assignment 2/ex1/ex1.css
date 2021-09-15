@@ -1,0 +1,31 @@
+body
+{
+	background-color: orange;
+	
+}
+
+
+
+
+.ti{
+	font-size: 300%;
+	
+	
+}
+.ai{
+	font-size: 300%;
+	
+	
+}
+form{
+	border: solid;
+	padding: 100px 100px;
+	text-align: center;
+}
+
+footer{
+      padding-top:10px;
+      text-align:center;
+      font-size:25px;
+      color:red;
+  }
